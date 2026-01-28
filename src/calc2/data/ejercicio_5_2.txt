@@ -1,0 +1,60 @@
+Group: Ejercicio 5.2 
+description: Dataset de ejemplo
+
+AMIGO = {nombre, edad, fechaIngresoAlGrupo
+    'Ana',     30, 2015-11-10
+    'Bruno',   32, 2014-06-01
+    'Carla',   28, 2020-03-15
+    'Diego',   35, 2010-11-20
+    'Elena',   29, 2022-01-10
+    'Facundo', 31, 2018-07-20
+    'Gina',    27, 2024-05-01
+    'Hugo',    40, 2009-12-12
+    'Ivan',    34, 2016-08-05
+    'Julia',   26, 2021-04-18
+    'Kevin',   38, 2013-09-30
+    'Laura',   33, 2019-02-11
+}
+
+FECHA_ESPECIAL = {fecha, eventoConmemorativo
+    2010-11-20, 'Ingreso de Diego'
+    2013-09-30, 'Ingreso de Kevin'
+    2015-11-10, 'Ingreso de Ana'
+    2018-07-20, 'Ingreso de Facundo'
+    2024-07-20, 'Dia del Amigo'
+    2025-02-14, 'San Valentin'
+    2025-07-20, 'Dia del Amigo'
+}
+
+REGALO = {nombre, destinatario, fecha, tipoRegalo, valor
+    'Bruno',   'Ana',     2015-11-10, 'Flores',     5000
+    'Carla',   'Ana',     2015-11-15, 'Perfume',    15000
+    'Kevin',   'Ana',     2015-11-10, 'Chocolate',  8000
+
+    'Ana',     'Bruno',   2025-02-14, 'Perfume',    20000
+    'Ana',     'Carla',   2025-07-20, 'Flores',     8000
+    'Ana',     'Diego',   2025-07-20, 'Libro',      12000
+    'Ana',     'Julia',   2025-03-05, 'Tecnologia', 35000
+
+    'Diego',   'Ana',     2010-11-20, 'Flores',     6000
+    'Diego',   'Bruno',   2024-07-20, 'Perfume',    18000
+    'Diego',   'Kevin',   2025-01-10, 'Libro',      14000
+
+    'Elena',   'Gina',    2024-07-20, 'Chocolate',  9000
+    'Elena',   'Gina',    2025-07-20, 'Chocolate',  9500
+
+    'Facundo', 'Ana',     2018-07-20, 'Libro',      16000
+    'Facundo', 'Bruno',   2025-03-10, 'Perfume',    22000
+    'Facundo', 'Carla',   2025-04-01, 'Flores',     12000
+    'Facundo', 'Ivan',    2025-05-20, 'Tecnologia', 50000
+
+    'Gina',    'Elena',   2025-07-20, 'Perfume',    11000
+
+    'Ivan',    'Laura',   2025-02-14, 'Perfume',    9000
+    'Ivan',    'Julia',   2025-06-01, 'Flores',     7000
+
+    'Julia',   'Ana',     2025-07-20, 'Libro',      13000
+
+    'Laura',   'Kevin',   2025-07-20, 'Chocolate',  6000
+}
+
