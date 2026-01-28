@@ -36,10 +36,12 @@ module.exports = (env, options) => {
 			],
 		},
 		output: {
-			path: __dirname + "/dist/",
-			filename: isProduction ? "js/[name].[hash].bundle.js" : "js/[name].bundle.js",
-			publicPath: isProduction ? "/relax/" : "/",
-		},
+    path: __dirname + "/dist/",
+    filename: isProduction
+    ? "js/[name].[hash].bundle.js"
+    : "js/[name].bundle.js",
+    publicPath: isProduction ? "/relax/" : "/",
+    },
 		devtool: isProduction ? '' : 'cheap-module-eval-source-map',
 		plugins: [
 			// https://github.com/johnagan/clean-webpack-plugin
